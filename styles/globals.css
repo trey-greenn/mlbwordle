@@ -24,3 +24,322 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+  min-height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gameControls {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.searchContainer {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.dropdownItem {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.guessButton, .giveUpButton, .newGameButton {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.guessButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.giveUpButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.newGameButton {
+  background-color: #2196f3;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+.guessButton:disabled, .giveUpButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.hintContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.hintItem {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+  min-width: 100px;
+}
+
+.hintItem h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.hintValue {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.guessesContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.guessTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.guessTable th, .guessTable td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.guessTable th {
+  background-color: #f2f2f2;
+}
+
+.match {
+  background-color: #4caf50;
+  color: white;
+}
+
+.gameOverContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.mysteryPlayerReveal {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  color: #2196f3;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .hintItem {
+    background-color: #222;
+  }
+  
+  .searchInput {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-color: #444;
+  }
+  
+  .dropdown {
+    background-color: #1a1a1a;
+    border-color: #444;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #333;
+  }
+  
+  .guessTable th {
+    background-color: #222;
+  }
+  
+  .guessTable th, .guessTable td {
+    border-color: #444;
+  }
+  
+  .match {
+    background-color: #2e7d32;
+  }
+  
+  .gameOverContainer {
+    background-color: #222;
+  }
+  
+  .footer {
+    border-color: #333;
+  }
+  
+  .footer p {
+    color: #aaa;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .hintContainer {
+    flex-direction: column;
+  }
+  
+  .hintItem {
+    min-width: 100%;
+  }
+  
+  .buttonContainer {
+    flex-direction: column;
+  }
+  
+  .guessTable {
+    font-size: 0.8rem;
+  }
+  
+  .guessTable th, .guessTable td {
+    padding: 0.3rem;
+  }
+}
+
+/* Additional styles for better UX */
+.directionalHint {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.higher {
+  color: #f44336;
+}
+
+.lower {
+  color: #2196f3;
+}
+
+.guessCount {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.shareButton {
+  background-color: #673ab7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.shareButton:hover {
+  background-color: #5e35b1;
+}
+
+.instructions {
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.instructions p {
+  margin-bottom: 0.5rem;
+}
