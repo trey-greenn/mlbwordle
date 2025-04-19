@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: www.mlbwordle.com
+
+# Sitemaps
+Sitemap: www.mlbwordle.com/sitemap.xml

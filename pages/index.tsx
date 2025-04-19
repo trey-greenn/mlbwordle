@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
+import SEO from '@/components/SEO';
 
 // Dummy data for players
 const dummyPlayers = [
@@ -174,11 +175,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <Head>
-        <title>MLB Wordle</title>
-        <meta name="description" content="Guess the MLB player" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO/>
 
       <main className="main">
         <h1 className="title">MLB Wordle</h1>
