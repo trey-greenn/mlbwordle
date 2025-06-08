@@ -1,0 +1,157 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+----------------------------------------------------
+Organic Growth Strategy for ufcwordle.com & mlbwordle.com
+Last Updated: April 23, 2025
+----------------------------------------------------
+
+This file outlines the core strategies for growing organic web traffic to our two sports-themed daily word games: ufcwordle.com and mlbwordle.com. These strategies are content-driven, SEO-rich, community-oriented, and habit-forming. Use this document as the central reference for growth ideas, future experiments, and task planning.
+
+----------------------------------------------------
+2. SEO-Optimized Blog Content (Content = Organic Fuel)
+----------------------------------------------------
+
+Purpose:
+Create content that helps people find us when they search for relevant UFC or MLB word game topics. These articles serve two purposes: SEO visibility on Google and sticky content that keeps users browsing.
+
+Tactics:
+- Write daily blog posts like:
+  > "Today's UFC Wordle – April 23, 2025 (Hint, Answer & Stats)"
+  > "MLB Wordle Answer Today – Guess Recap + Player Bio"
+- Write SEO-rich evergreen posts:
+  > “10 Most Guessed Fighters in UFC Wordle”
+  > “What is MLB Wordle? How It’s Different from Traditional Wordle”
+- Create long-tail keyword content:
+  > “Wordle for UFC fans”, “MLB puzzle game”, “daily fighter guessing game”
+
+Why it matters:
+Each indexed blog post is a new door into the site. Daily SEO content also signals freshness to Google, increasing crawl rate and SERP visibility. These blogs build a searchable library around recurring content.
+
+Implementation Notes:
+- Include target keywords naturally in H1, title tag, meta description, and image alt text
+- Internal link each blog to the game (`/daily/2025-04-23`) to pass link juice
+- Use schema markup for articles to improve click-through rates
+
+----------------------------------------------------
+4. Micro Content for Social Media (Reach New Users Daily)
+----------------------------------------------------
+
+Purpose:
+Turn your daily game into bite-sized entertainment on platforms like TikTok, YouTube Shorts, Instagram Reels, and Twitter/X. These short videos act like trailers for the daily challenge.
+
+Tactics:
+- Record 10–30 second clips showing:
+  > A dramatic or funny guess progression
+  > Clue drops for today's player (blurred face reveal style)
+  > “You only get 1 clue — who is it?” quizzes
+- Post every morning to align with new puzzle release
+- Add hashtags like #ufcwordle #mlbwordle #sportspuzzle #dailychallenge
+
+Why it matters:
+Short-form video is one of the fastest ways to reach cold audiences. Micro content helps turn passive sports fans into curious first-time users, especially when tied to popular fighters or games that day.
+
+Tools:
+- CapCut or Canva for editing
+- Buffer or Hootsuite to schedule content
+- Repurpose content for multiple platforms (1 TikTok = 1 Reels = 1 Short)
+
+----------------------------------------------------
+5. Gamify and Build Habits (Create Addicts, Not Visitors)
+----------------------------------------------------
+
+Purpose:
+Make the game habit-forming through rewards, rituals, and user identity. Increase Daily Active Users (DAUs) and retention with streak mechanics and visible achievements.
+
+Tactics:
+- Add a streak counter (e.g. “4-Day Streak – Keep Going!”)
+- Add leaderboards (“Top 100 Streaks”, “Fastest Guess Today”)
+- Reward long streaks with badges, emojis, or player unlockables
+- Offer optional email reminders:
+  > “You’re on a 5-day streak – don’t break it!”
+
+Why it matters:
+Retention is the key to sustainable growth. A returning user doesn’t cost anything to acquire again. Streaks and gamification make the product part of the user's daily routine — like checking the news or Wordle.
+
+Implementation Ideas:
+- Show streak stats at the end of each game
+- Let users “sign in” via cookies or simple email-based logins
+- Consider weekly and monthly performance summaries via email
+
+----------------------------------------------------
+7. Technical SEO Cleanup (Make It Crawlable & Fast)
+----------------------------------------------------
+
+Purpose:
+Ensure search engines can properly index and rank your site, and that your content loads quickly and cleanly for users on all devices.
+
+Tactics:
+- Each day’s Wordle must have its own clean URL:
+  > e.g. /daily/2025-04-23 or /ufc/wordle/2025-04-23
+- Add meta titles + descriptions dynamically based on the puzzle
+- Ensure proper use of:
+  > `<h1>` for the puzzle title
+  > `alt` text on any images (fighter faces, etc.)
+- Optimize site speed (compress images, preload fonts, lazy-load any assets)
+- Implement mobile responsiveness (90%+ users are mobile!)
+
+Why it matters:
+Search engines need clean HTML structure to rank pages, and users will bounce quickly if the page loads slowly or isn’t readable on mobile. This is foundational SEO hygiene.
+
+Tools:
+- Google Search Console for indexing/crawl issues
+- PageSpeed Insights or GTmetrix for performance
+- Screaming Frog or Ahrefs for SEO audit
+
+----------------------------------------------------
+9. Analytics and Growth Tracking (What Gets Measured Grows)
+----------------------------------------------------
+
+Purpose:
+Use data to understand how people discover and use the site. Make informed decisions based on what’s working, not assumptions.
+
+Tactics:
+- Google Analytics:
+  > Track daily unique visitors, bounce rate, time on site
+- Track traffic by source:
+  > Search (SEO), Social, Direct, Referral
+- Use Hotjar or Microsoft Clarity to record user sessions and heatmaps
+- Tag each daily Wordle link with UTM parameters on social media
+
+Why it matters:
+You need to know:
+  - Which content brings the most traffic?
+  - When are users most active?
+  - Where do they drop off?
+Without data, all growth efforts are just educated guesses.
+
+Implementation Notes:
+- Set up custom dashboards for weekly metrics review
+- Log all blog traffic and social post performance in a Notion/Google Sheet
+
+----------------------------------------------------
+10. Cross-Promotion (Leverage Our Two-Site Ecosystem)
+----------------------------------------------------
+
+Purpose:
+Send traffic between mlbwordle.com and ufcwordle.com to increase exposure, user overlap, and brand recognition.
+
+Tactics:
+- On the win screen, show a prompt:
+  > “Into baseball too? Try MLB Wordle today →”
+- Shared footer or header: “Explore all our Wordles”
+- Shared email list for both brands (optional: allow user to select preferences)
+- Feature both games on a landing page like: `sportwordlehub.com` (future idea)
+
+Why it matters:
+People who enjoy one niche game are likely to enjoy another if it shares the same UX. Cross-promoting increases session time and creates a network effect of daily engagement.
+
+Bonus:
+- Future goal: launch new sports-themed Wordles (e.g. NBAWordle, NFLWordle)
+- Use cross-site momentum to test them when ready
+
+----------------------------------------------------
+End of Strategy Notes
+----------------------------------------------------

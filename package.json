@@ -10,6 +10,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "csv-parse": "^5.6.0",
     "next": "15.2.2",
     "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
